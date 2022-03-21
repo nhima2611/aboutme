@@ -45,7 +45,7 @@ const Header = () => {
               </div>
           ) : (
            
-            <div className='w-[340px] h-full absolute bg-gray-300 z-50'>
+            <div className='w-[340px] h-[900px] absolute bg-gray-300 z-50'>
             <div className='flex justify-end p-2'>
             <IoIosClose className='text-4xl text-gray-700 ' onClick={show} />
             </div>
