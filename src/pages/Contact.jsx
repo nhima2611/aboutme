@@ -18,7 +18,7 @@ const Contact = () => {
             </a>
         </div>
         <div className='flex flex-col items-center gap-8'>
-          <a href="https://topdev.vn/blog/wp-content/uploads/2017/09/github1.png">
+          <a href="https://github.com/nhima2611">
           <img src="https://topdev.vn/blog/wp-content/uploads/2017/09/github1.png" alt="" className='w-1/3 mx-auto mb-8' />
           </a>
             <a href="https://github.com/nhima2611" className='text-lg '>github.com/nhima2611</a>
