@@ -60,7 +60,7 @@ const Header = () => {
                 {
                     nav.map((item, index) => {
                         return (
-                        <ul className='' onClick={show}>
+                        <ul className='flex flex-col gap-5' onClick={show}>
                                 <Link to={item.path} >
                             <li className='text-gray-700 text-base font-semibold hover:text-gray-400'>
                                     {item.display}
