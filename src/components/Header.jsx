@@ -57,19 +57,19 @@ const Header = () => {
                 <span className='text-blue-500 opacity-80'>IN VIETNAM</span>
             </div>
             <div className='mt-[80px] flex flex-col items-center gap-10'>
-                <ul className='' onClick={show}>
                 {
                     nav.map((item, index) => {
                         return (
+                        <ul className='' onClick={show}>
                                 <Link to={item.path} >
                             <li className='text-gray-700 text-base font-semibold hover:text-gray-400'>
                                     {item.display}
                             </li>
                                 </Link>
+                    </ul>
                         )
                     })
                 }
-                </ul>
             </div>
             <div className='text-center mt-[60px] flex flex-col text-sm opacity-60'>
                 <span>Coppyright 2020 All right reserved</span>
